@@ -13,6 +13,9 @@ body {
 	padding: 0px;
 	height: 100vh;
 	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #particles-js {
@@ -209,6 +212,7 @@ GAME
 	z-index: 100;
 	height: 100vh;
 	margin: 0;
+	padding: 10px 40px;
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 	color: white;
   }
